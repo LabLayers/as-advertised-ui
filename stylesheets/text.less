@@ -1,5 +1,5 @@
 @import "ui-mixins";
-@import "ui-variables";
+@import "../overrides/ui-variables";
 
 h1,
 h2,
@@ -35,7 +35,7 @@ code {
   border-radius: @component-border-radius;
 }
 
-.selected { .text(highlight); }
+.entry.selected { .text(highlight); }
 
 .text-smaller { font-size: 0.9em; }
 

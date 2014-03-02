@@ -1,3 +1,52 @@
+// (Insert Pop Culture Reference)
+
+// Atom website: https://atom.io/
+// Primary reference: http://i.imgur.com/5DtFsLx.png
+
+// Twitter bg image: http://i.imgur.com/hnrGGp0.jpg
+// Animated demo: http://i.imgur.com/r48NyFR.gif
+// Laptop: http://i.imgur.com/bluAF64.png
+
+// Website
+
+@website-green: #7aa271;
+@website-brown: #554c50;
+@website-tan: #ede9e1;
+
+@website-pod-green-light: #929741;
+@website-pod-green-dark: #868b3a;
+
+@website-rocket-brown-light: #62585c;
+@website-rocket-brown-dark: #554b4f;
+@website-rocket-green-light: #a8cf9e;
+@website-rocket-green-dark: #487d6d;
+@website-rocket-black-light: #444952;
+@website-rocket-black-dark: #333648;
+
+// Tree View
+
+@tree-background: #a7e3ca;
+@tree-text: #91c6b0;
+@tree-selected: #5e7c6f;
+
+// Tabs
+
+@tab-bar-background: #5e7c6f;
+@tab-background: #6c9388;
+@tab-text: @tab-bar-background;
+@tab-active-background: #7fad9a;
+@tab-active-text: @tab-bar-background;
+
+// Editor
+
+@editor-gutter: #a8d5a8;
+@editor-background: #a8d5a8;
+@editor-text: @tab-bar-background;
+@editor-text-light: #a8d5a8;
+@editor-gutter: @editor-text-light;
+
+@editor-cursor: #b16561;
+
 // Colors
 
 @text-color: #444;
@@ -7,7 +56,7 @@
 
 @text-color-info: #5293d8;
 @text-color-success: #529b2f;
-@text-color-warning: #FA8915;
+@text-color-warning: darken(#ff982d, 15%);
 @text-color-error: #c00;
 
 @text-color-ignored: @text-color-subtle;
@@ -53,12 +102,12 @@
 
 @tab-bar-background-color: #d8d8d8;
 @tab-bar-border-color: #ddd;
-@tab-background-color: #e2e2e2;
-@tab-background-color-active: #f8f8f8;
+@tab-background-color: #e8e8e8;
+@tab-background-color-active: #f0f0f0;
 @tab-border-color: lighten(@base-border-color, 10%);
 
-@tree-view-background-color: #eee;
-@tree-view-border-color: @base-border-color;
+@tree-view-background-color: @tree-background;
+@tree-view-border-color: transparent;
 
 @ui-site-color-1: @background-color-success; // green
 @ui-site-color-2: @background-color-info; // blue
@@ -83,4 +132,5 @@
 
 // Other
 
-@font-family: 'Lucida Grande', 'Segoe UI', sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-family: Montserrat, 'Lucida Grande', 'Segoe UI', sans-serif;
